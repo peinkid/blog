@@ -13,7 +13,7 @@
       </div>
       <div>{{ item.sel }}</div>
     </div>
-    <div style="margin-top:20px">
+    <div style="margin-top:20px" class="twobtn">
       <mt-button
         :disabled="disabled"
         type="primary"

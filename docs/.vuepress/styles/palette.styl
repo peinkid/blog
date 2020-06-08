@@ -88,7 +88,7 @@ a.sidebar-link:hover{
 //   position:relative;
 //   height:100%
 // }
-.theme-container,.theme-container.no-sidebar{
+.action,img,.sel,.twobtn,div[class*="language-"]{
   position:relative !important;
   z-index:2 !important;
 }
@@ -99,4 +99,7 @@ body{
 }
 a,button{
   cursor:url('https://cdn.jsdelivr.net/gh/peinkid/blog@poniter/docs/.vuepress/public/pointer.cur'),auto !important;
+}
+button[disabled="disabled"]{
+  cursor:url('https://cdn.jsdelivr.net/gh/peinkid/blog@cursor/docs/.vuepress/public/default.cur'),auto !important;
 }

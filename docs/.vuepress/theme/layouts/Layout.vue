@@ -9,7 +9,14 @@
       v-if="audioCom"
       :is="audioCom"
     ></component>
-    <vue-particles clickMode="repulse" :particlesNumber="50" :particleSize="3" color="#88c1ea" linesColor="#e84118" class="bgvue"></vue-particles>
+    <vue-particles
+      clickMode="repulse"
+      :particlesNumber="50"
+      :particleSize="3"
+      color="#88c1ea"
+      linesColor="#e84118"
+      class="bgvue"
+    ></vue-particles>
   </div>
 </template>
 
@@ -23,12 +30,12 @@ export default {
     ParentLayout,
     Test
   },
-  data() {
+  data () {
     return {
       audioCom: null
     }
   },
-  mounted() {
+  mounted () {
     import('../components/Audio.vue').then(module => {
       this.audioCom = module.default
     })
