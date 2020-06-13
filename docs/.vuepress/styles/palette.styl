@@ -28,19 +28,42 @@
     background linear-gradient(to right,#88c1ea, #e84118);
 }
 .home .hero .action-button{
+    position: relative;
+    overflow: hidden;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     background linear-gradient(to right,#88c1ea, #e84118);
-    border-bottom: 1px solid #dcdde1;
+    border-bottom: none;
+    &:hover{
+      color:#000;
+      transition: all .7s ease-in-out;
+    }
 }
-.home .hero .action-button:hover{
-    border: 1px solid #dcdde1;
+.ripple {
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(0);
+}
+.animation {
+    animation: ripple .7s ease-in-out;
+}
+@keyframes ripple {
+    100% {
+        transform: scale(3);
+        opacity: 0;
+    }
 }
 .sidebar > .sidebar-links > li > a.sidebar-link{
     font-size: 1em !important;
 }
-.nav-link{
-  &:hover{
+.nav-item .nav-link:hover{
   border-bottom: 2px solid #74b9ff !important;
-  }
+}
+.nav-link{
   &.router-link-exact-active.router-link-active{
   border-bottom: 2px solid #74b9ff !important;
   }

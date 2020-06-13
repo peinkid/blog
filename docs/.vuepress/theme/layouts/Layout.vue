@@ -11,10 +11,11 @@
     ></component>
     <vue-particles
       clickMode="repulse"
-      :particlesNumber="50"
-      :particleSize="3"
+      :particlesNumber="65"
+      :particleSize="4"
+      :linesWidth="2"
       color="#88c1ea"
-      linesColor="#e84118"
+      linesColor="#EA2027"
       class="bgvue"
     ></vue-particles>
   </div>
@@ -30,12 +31,12 @@ export default {
     ParentLayout,
     Test
   },
-  data () {
+  data() {
     return {
       audioCom: null
     }
   },
-  mounted () {
+  mounted() {
     import('../components/Audio.vue').then(module => {
       this.audioCom = module.default
     })

@@ -61,40 +61,14 @@ module.exports = {
                 link: '/all/about/about.md'
             }
         ],
-        // sidebar: [{
-        //         title: '首页',
-        //         path: '/'
-        //     },
-
-        //     {
-        //         title: '个人创作',
-        //         children: [
-        //             'all/blog/blog1.md',
-        //             'all/blog/blog2.md',
-        //         ]
-        //     },
-        //     {
-        //         title: '技术博客',
-        //         children: [{
-        //                 title: 'js防抖与节流',
-        //                 path: 'all/tech/tech1.md'
-        //             },
-        //             {
-        //                 title: '设置Chrome解决本地开发跨域',
-        //                 path: 'all/tech/tech2.md'
-        //             }
-        //         ]
-        //     },
-        //     {
-        //         title: '关于Peinkid'
-        //     }
-        // ],
         sidebar: {
             '/all/blog/': [
                 'blog1',
                 'blog2',
                 'blog3',
-                'blog4'
+                'blog4',
+                'blog5',
+                'blog6'
             ],
             '/all/tech/': [
                 'tech1',
