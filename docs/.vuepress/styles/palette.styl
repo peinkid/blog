@@ -4,22 +4,28 @@
 .gt-meta{
     z-index: 8 !important
 }
+.sidebar-links{
+  height: 290px;
+  overflow-y: auto;
+  border-bottom:1px solid rgba(113, 128, 147,.6);
+}
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 5px;
+  height: 7px;
   background-color: white;
+  border-radius: 16px;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-  border-radius: 10px;
+  border-radius: 16px;
   width:8px;
 //   height:1px;
   background-color: #88c1ea;
   background linear-gradient(#88c1ea, #e84118)
 }
 ::-webkit-scrollbar-thumb:horizontal {
-  border-radius: 10px;
-  height:8px;
+  border-radius: 16px;
+  height:7px;
   background-color: #88c1ea;
   background linear-gradient(to right,#88c1ea, #e84118)
 }

@@ -14,7 +14,8 @@ console.log(delete name);
 console.log(delete age);
 ```
 
-<Exc :sort="'first'" key="first"/>
+<Exc v-if="$sys" :sort="'first'" key="first"/>
+<Exc2 v-else :sort="'first'" key="first"/>
 
 #### 2. 选择以下代码输出值
 
@@ -25,4 +26,5 @@ console.log(person);
 console.log(Object.keys(person));
 ```
 
-<Exc :sort="'second'" key="second"/>
+<Exc v-if="$sys" :sort="'second'" key="second"/>
+<Exc2 v-else :sort="'second'" key="second"/>

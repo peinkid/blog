@@ -44,13 +44,13 @@
 import swal from 'sweetalert'
 export default {
   props: ['sort'],
-  name: 'Exc',
+  name: 'Exc2',
   mounted() {
     import(`./excjs/${this.$frontmatter.question}.js`).then(module => {
       this.content = module.selectOption[this.sort]
       this.answer = module.selectOption.answer[this.sort]
       this.tips = module.selectOption.tips[this.sort].replace(
-        /(?<!\<)[0-9a-zA-Z]+(?!\/>)/g,
+        /[^\<\u4e00-\u9fa5>][0-9a-zA-Z]+(?!\/>)/g,
         "<span style='color:#0097e6;font-style:italic;font-weight:550'>" +
           '$&' +
           '</span>'
