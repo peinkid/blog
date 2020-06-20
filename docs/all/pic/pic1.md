@@ -1,5 +1,3 @@
 ---
-sidebar: false
+layout: Pic
 ---
-
-<Pic/>

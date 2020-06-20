@@ -34,7 +34,7 @@ $(document).on('copy', function () {
 function initTips() {
   $.ajax({
     cache: true,
-    url: 'https://cdn.jsdelivr.net/gh/peinkid/peinkid.github.io@v0.6/live2d/message.json',
+    url: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/live2d/message.json',
     dataType: "json",
     success: function (result) {
       $.each(result.mouseover, function (index, tips) {
