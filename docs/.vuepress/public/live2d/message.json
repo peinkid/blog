@@ -11,6 +11,10 @@
       "text": ["是不是想来 技术博客 学习了呢？"]
     },
     {
+      "selector": "a[href='/all/exc/exc1.html']",
+      "text": ["嘿嘿  做几道题目试试手吧~"]
+    },
+    {
       "selector": "a[href='/all/about/about.html']",
       "text": ["不会吧，你居然想了解 Peinkid 这个菜鸡？"]
     },

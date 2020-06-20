@@ -9,6 +9,6 @@ export default ({
 }) => {
     Vue.use(MintUI)
     Vue.use(VueParticles)
-    Vue.prototype.$sys = navigator.userAgent.indexOf('Mac') === -1
+    Vue.prototype.$sys = window.navigator.userAgent.indexOf('Mac') === -1
 
 }
