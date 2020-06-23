@@ -17,9 +17,9 @@
       </main>
     </div>
     <a
-      style="float:right;font-weight:700"
+      style="position:fixed;font-weight:700;z-index:10;bottom:0;right:10px"
       href="/"
-    >回到首页</a>
+    >首页→</a>
   </div>
 </template>
 
@@ -30,20 +30,20 @@ export default {
     return {
       img: [
         {
-          title: '『四月是你的谎言』',
+          title: '『那个六月，万般留恋』',
           desc: '我在盛开的樱花下遇见你，从此命运不再属于自己',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/1.jpg'
         },
         {
-          title: '『LOVE』',
-          desc: '对不起，是我没有勇气',
+          title: '『LOVE & 错误的抉择』',
+          desc: '对不起，是我没有勇气，要是勇敢踏出一步就好了',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/2.png'
         },
         {
-          title: '『WJY』',
-          desc: '好久不见，你还好吗',
+          title: '『Dear WJY』',
+          desc: '好久不见，你还好吗？',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/3.jpg'
         }
@@ -93,8 +93,22 @@ export default {
   box-sizing: border-box;
   /* background-color: rgba(0, 0, 0, 0.2); */
 }
+@media screen and (max-width: 450px) {
+  .list-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+  }
+}
 .list-item:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   /* background-color: transparent; */
 }
 
@@ -106,7 +120,16 @@ export default {
   transform: translateZ(-75px) scale(1.6);
   box-sizing: border-box;
 }
-
+@media screen and (max-width: 450px) {
+  .item-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: translateZ(-50px);
+    box-sizing: border-box;
+  }
+}
 .item-image::before {
   content: '';
   display: block;
@@ -133,14 +156,27 @@ export default {
 }
 
 .text-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bolder;
   margin-bottom: 20px;
   box-sizing: border-box;
 }
-
+@media screen and (max-width: 450px) {
+  .text-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+}
 .text-desc {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   box-sizing: border-box;
+}
+@media screen and (max-width: 450px) {
+  .text-desc {
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
 }
 </style>

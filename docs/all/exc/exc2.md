@@ -1,17 +1,22 @@
 ---
-title: 习题一
-question: 1
+title: 习题二
+question: 2
 ---
 
-# 习题一
+# 习题二
 
-#### 1. 选择以下代码输出值
+#### 1. 哪个方法会返回 'Hello world'
 
 ```javascript
-const name = "Lydia";
-age = 21;
-console.log(delete name);
-console.log(delete age);
+const myMap = new Map();
+const myFunc = () => "greeting";
+myMap.set(myFunc, "Hello world");
+//1
+myMap.get("greeting");
+//2
+myMap.get(myFunc);
+//3
+myMap.get(() => "greeting");
 ```
 
 <ClientOnly>
@@ -22,10 +27,9 @@ console.log(delete age);
 #### 2. 选择以下代码输出值
 
 ```javascript
-const person={name:'Lydia};
-Object.defineProperty(person,'age',{value:21})
-console.log(person);
-console.log(Object.keys(person));
+const items = ['a', 'b', 'c']
+({{item:items[3]}}={item:'d'})
+console.log(items)
 ```
 
 <ClientOnly>
@@ -36,12 +40,12 @@ console.log(Object.keys(person));
 #### 3. 选择以下代码输出值
 
 ```javascript
-function getAge() {
-  "use strict";
-  age = 21;
-  console.log(age);
+const person = { name: "Lydia" };
+function sayHi(age) {
+  console.log(`${this.name} is ${age}`);
 }
-getAge();
+sayHi.call(person, 21);
+sayHi.bind(person, 21);
 ```
 
 <ClientOnly>

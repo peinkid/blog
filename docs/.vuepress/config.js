@@ -81,7 +81,8 @@ module.exports = {
                 'tech4'
             ],
             '/all/exc/': [
-                'exc1'
+                'exc1',
+                'exc2'
             ]
         },
         lastUpdated: '最后更新时间',
