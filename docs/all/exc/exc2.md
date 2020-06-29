@@ -27,9 +27,9 @@ myMap.get(() => "greeting");
 #### 2. 选择以下代码输出值
 
 ```javascript
-const items = ['a', 'b', 'c']
-({{item:items[3]}}={item:'d'})
-console.log(items)
+const items = ["a", "b", "c"];
+({ item: items[3] } = { item: "d" });
+console.log(items);
 ```
 
 <ClientOnly>
