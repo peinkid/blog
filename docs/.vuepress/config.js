@@ -78,7 +78,8 @@ module.exports = {
                 'tech1',
                 'tech2',
                 'tech3',
-                'tech4'
+                'tech4',
+                'tech5'
             ],
             '/all/exc/': [
                 'exc1',
