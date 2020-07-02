@@ -46,6 +46,12 @@ export default {
           desc: '好久不见，你还好吗？',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/3.jpg'
+        },
+        {
+          title: '『无声之曲』',
+          desc: '没有送出的音乐，永远只能在心中响起',
+          url:
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.1/docs/.vuepress/public/pic/4.jpg'
         }
       ]
     }
@@ -112,7 +118,7 @@ export default {
     to left,
     rgba(0, 168, 255, 0.1),
     rgba(0, 0, 0, 0.5),
-    rgba(176, 14, 37, 0.1)
+    rgba(176, 14, 37, 0.2)
   );
   /* background-color: rgba(0, 0, 0, 0.2); */
   /* background-color: transparent; */
@@ -160,6 +166,7 @@ export default {
   color: #ffffff;
   text-align: center;
   box-sizing: border-box;
+  text-shadow: 5px 5px 5px #000;
 }
 
 .text-title {
