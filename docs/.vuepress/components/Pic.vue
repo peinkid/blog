@@ -108,7 +108,13 @@ export default {
   }
 }
 .list-item:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+    to left,
+    rgba(0, 168, 255, 0.1),
+    rgba(0, 0, 0, 0.5),
+    rgba(176, 14, 37, 0.1)
+  );
+  /* background-color: rgba(0, 0, 0, 0.2); */
   /* background-color: transparent; */
 }
 
@@ -136,7 +142,7 @@ export default {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   transition: all 0.3s ease;
   box-sizing: border-box;
 }
@@ -147,6 +153,7 @@ export default {
   height: 100%;
   object-fit: cover;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .item-text {
