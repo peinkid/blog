@@ -7,9 +7,15 @@
           v-for="item in img"
         >
           <div class="item-image">
-            <img v-lazy="item.url" />
+            <img
+              v-lazy="item.url"
+              @load="test($event,item)"
+            />
           </div>
-          <div class="item-text">
+          <div
+            class="item-text"
+            v-if="item.show"
+          >
             <div class="text-title">{{item.title}}</div>
             <div class="text-desc">{{item.desc}}</div>
           </div>
@@ -32,24 +38,28 @@ export default {
         {
           title: '『那个六月，万般留恋』',
           desc: '我在盛开的樱花下遇见你，从此命运不再属于自己',
+          show: false,
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/1.jpg'
         },
         {
           title: '『LOVE & 错误的抉择』',
           desc: '对不起，是我没有勇气，要是勇敢踏出一步就好了',
+          show: false,
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/2.png'
         },
         {
           title: '『Dear WJY』',
           desc: '好久不见，你还好吗？',
+          show: false,
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/3.jpg'
         },
         {
           title: '『无声之曲』',
           desc: '没有送出的音乐，永远只能在心中响起',
+          show: false,
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.1/docs/.vuepress/public/pic/4.jpg'
         }
@@ -57,7 +67,20 @@ export default {
     }
   },
   components: {},
-  methods: {}
+  methods: {
+    test(e, item) {
+      if (
+        e.path
+          .find(item => item.localName === 'img')
+          .currentSrc.includes('3.gif')
+      ) {
+        console.log('88')
+        item.show = false
+      } else {
+        item.show = true
+      }
+    }
+  }
 }
 </script>
 <style scoped>
@@ -194,6 +217,8 @@ export default {
   }
 }
 img[lazy='loading'] {
+  width: 25%;
+  height: 25%;
   position: absolute;
   top: 50%;
   left: 50%;
