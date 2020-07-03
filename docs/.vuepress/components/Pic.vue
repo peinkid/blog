@@ -7,7 +7,7 @@
           v-for="item in img"
         >
           <div class="item-image">
-            <img :src="item.url" />
+            <img v-lazy="item.url" />
           </div>
           <div class="item-text">
             <div class="text-title">{{item.title}}</div>
@@ -192,5 +192,11 @@ export default {
     font-size: 1rem;
     box-sizing: border-box;
   }
+}
+img[lazy='loading'] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
