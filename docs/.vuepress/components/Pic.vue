@@ -74,7 +74,6 @@ export default {
           .find(item => item.localName === 'img')
           .currentSrc.includes('3.gif')
       ) {
-        console.log('88')
         item.show = false
       } else {
         item.show = true
