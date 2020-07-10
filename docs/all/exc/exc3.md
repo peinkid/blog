@@ -24,3 +24,36 @@ console.log(myCounter);
 <Exc v-if="$sys" :sort="'first'" key="first"/>
 <Exc2 v-else :sort="'first'" key="first"/>
 </ClientOnly>
+
+#### 2. 选择以下代码输出值
+
+```javascript
+function getInfo(x, y, z) {
+  console.log(x);
+  console.log(y);
+  console.log(z);
+}
+const person = "Lydia";
+const age = 21;
+getInfo`${person} is ${age} years old`;
+```
+
+<ClientOnly>
+<Exc v-if="$sys" :sort="'second'" key="second"/>
+<Exc2 v-else :sort="'second'" key="second"/>
+</ClientOnly>
+
+#### 3. 选择以下代码输出值
+
+```javascript
+var a = { n: 1 };
+var b = a;
+a.x = a = { n: 2 };
+console.log(a.x);
+console.log(b.x);
+```
+
+<ClientOnly>
+<Exc v-if="$sys" :sort="'third'" key="third"/>
+<Exc2 v-else :sort="'third'" key="third"/>
+</ClientOnly>

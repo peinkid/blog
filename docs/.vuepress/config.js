@@ -87,7 +87,8 @@ module.exports = {
             '/all/exc/': [
                 'exc1',
                 'exc2',
-                'exc3'
+                'exc3',
+                'exc4'
             ]
         },
         lastUpdated: '最后更新时间',
