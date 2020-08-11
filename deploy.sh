@@ -8,9 +8,11 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'update'
+git commit -m 'zip pic'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
+# https://gitee.com/peinkid/peinkid.git
+# https://github.com/peinkid/peinkid.github.io.git
 echo "正在上传github~"
 git push -f "https://github.com/peinkid/peinkid.github.io.git" master
 echo "上传成功"

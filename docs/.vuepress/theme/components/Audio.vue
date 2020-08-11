@@ -11,6 +11,7 @@
     <aplayer
       :audio="audio"
       :mini="mini"
+      order="random"
     />
   </div>
 </template>
@@ -27,12 +28,6 @@ export default {
       mini: true,
       isChangeStyle: false,
       audio: [
-        {
-          name: 'The Party We Have Never Seen',
-          artist: 'Nana Takahashi',
-          url: 'https://cdn.moefe.org/music/mp3/thepartywehaveneverseen.mp3',
-          cover: 'https://p1.music.126.net/IwclpJu4gaqhSZrKunEFWg==/3297435379408525.jpg?param=300y300' // prettier-ignore
-        },
         {
           name: 'sonder---司南~:2020-01-01',
           artist: '司南',
@@ -60,6 +55,27 @@ export default {
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/mp3/wochengren.mp3',
           cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio4.jpg' // prettier-ignore
+        },
+        {
+          name: '打上花火---Akie 秋绘',
+          artist: 'Akie 秋绘',
+          url:
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.5/docs/.vuepress/public/mp3/dashanghuahuo.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio1.jpg' // prettier-ignore
+        },
+        {
+          name: '光---當山みれい',
+          artist: '當山みれい',
+          url:
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.5/docs/.vuepress/public/mp3/guang.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio2.jpg' // prettier-ignore
+        },
+        {
+          name: '願い～あの頃のキミへ',
+          artist: '當山みれい',
+          url:
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.5/docs/.vuepress/public/mp3/qiyuan.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio3.jpg' // prettier-ignore
         }
       ]
     }
