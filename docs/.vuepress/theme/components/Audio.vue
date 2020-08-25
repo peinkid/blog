@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="isChangeStyle?'audioMain2':'audioMain'"
+    :class="mini?(isChangeStyle?'audioMain2':'audioMain'):'audioMain3'"
     @mouseover="recoverStyle"
     @mouseout="recoverTime"
   >
@@ -32,50 +32,50 @@ export default {
           name: 'sonder---司南~:2020-01-01',
           artist: '司南',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/mp3/sonder.mp3',
-          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio1.jpg' // prettier-ignore
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/sonder.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio1.jpg' // prettier-ignore
         },
         {
           name: '应怀酒---司南~:2020-02-02',
           artist: '司南',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/mp3/yinghuaijiu.mp3',
-          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio2.jpg' // prettier-ignore
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/yinghuaijiu.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio2.jpg' // prettier-ignore
         },
         {
           name: '坠落星空---小星星Aurora:2020-05-02',
           artist: '小星星',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/mp3/zhuiluoxingkong.mp3',
-          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio3.jpg' // prettier-ignore
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/zhuiluoxingkong.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio3.jpg' // prettier-ignore
         },
         {
           name: '我承认---阿悄（肖莎）:2020-05-02',
           artist: '阿悄',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/mp3/wochengren.mp3',
-          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio4.jpg' // prettier-ignore
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/wochengren.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio4.jpg' // prettier-ignore
         },
         {
           name: '打上花火---Akie 秋绘',
           artist: 'Akie 秋绘',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.5/docs/.vuepress/public/mp3/dashanghuahuo.mp3',
-          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio1.jpg' // prettier-ignore
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/dashanghuahuo.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio1.jpg' // prettier-ignore
         },
         {
           name: '光---當山みれい',
           artist: '當山みれい',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.5/docs/.vuepress/public/mp3/guang.mp3',
-          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio2.jpg' // prettier-ignore
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/guang.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio2.jpg' // prettier-ignore
         },
         {
           name: '願い～あの頃のキミへ',
           artist: '當山みれい',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.5/docs/.vuepress/public/mp3/qiyuan.mp3',
-          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@beta1/docs/.vuepress/public/audioimg/audio3.jpg' // prettier-ignore
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/qiyuan.mp3',
+          cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio3.jpg' // prettier-ignore
         }
       ]
     }
@@ -138,6 +138,15 @@ export default {
   z-index: 100;
   opacity: 0.2;
   transition: all 1s ease;
+}
+.audioMain3 {
+  position: fixed;
+  top: 50%;
+  left: 100%;
+  transform: translate(-100%, -50%);
+  z-index: 100;
+  transition: all 1s ease;
+  width: 400px;
 }
 
 .audio {

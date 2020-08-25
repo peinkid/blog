@@ -40,35 +40,35 @@ export default {
           desc: '我在盛开的樱花下遇见你，从此命运不再属于自己',
           show: false,
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/1.jpg'
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/pic/1.jpg'
         },
         {
           title: '『LOVE & 错误的抉择』',
           desc: '对不起，是我没有勇气，要是勇敢踏出一步就好了',
           show: false,
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/2.png'
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/pic/2.png'
         },
         {
           title: '『Dear WJY』',
           desc: '好久不见，你还好吗？',
           show: false,
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.0/docs/.vuepress/public/pic/3.jpg'
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/pic/3.jpg'
         },
         {
           title: '『无声之曲』',
           desc: '没有送出的音乐，永远只能在心中响起',
           show: false,
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.1/docs/.vuepress/public/pic/4.jpg'
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/pic/4.jpg'
         },
         {
           title: '『跳动的头像』',
           desc: '今天你找我聊天了，好开心~老朋友，そうですか',
           show: false,
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.4/docs/.vuepress/public/pic/5.jpg'
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/pic/5.jpg'
         }
       ]
     }

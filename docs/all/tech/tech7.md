@@ -4,7 +4,7 @@ title: prototype & proto & constructor
 
 # 理解 prototype & proto & constructor
 
-![prototype & proto & constructor](https://cdn.jsdelivr.net/gh/peinkid/blog@2.3/docs/.vuepress/public/techpic/prototype.jpg)
+![prototype & proto & constructor](https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/techpic/prototype.jpg)
 
 ```javascript
 //构造函数与实例对象

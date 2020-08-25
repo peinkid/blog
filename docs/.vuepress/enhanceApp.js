@@ -11,7 +11,7 @@ export default ({
   Vue.use(MintUI, {
     lazyload: {
       loading:
-        "https://cdn.jsdelivr.net/gh/peinkid/blog@2.2/docs/.vuepress/public/3.gif"
+        "https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/3.gif"
     }
   });
   Vue.use(VueParticles);

@@ -11,7 +11,7 @@
     ></component>
     <vue-particles
       clickMode="repulse"
-      :particlesNumber="65"
+      :particlesNumber="60"
       :particleSize="4"
       :linesWidth="2"
       color="#88c1ea"
