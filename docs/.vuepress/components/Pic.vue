@@ -73,6 +73,12 @@ export default {
       ]
     }
   },
+  created() {
+    history.pushState(null, null, document.URI)
+    window.addEventListener('popstate', function() {
+      history.pushState(null, null, document.URI)
+    })
+  },
   components: {},
   methods: {
     handleLoad(e, item) {

@@ -14,6 +14,6 @@ git commit -m 'zip pic'
 # https://gitee.com/peinkid/peinkid.git
 # https://github.com/peinkid/peinkid.github.io.git
 echo "正在上传github~"
-git push -f "https://gitee.com/peinkid/peinkid.git" master
+git push -f "https://github.com/peinkid/peinkid.github.io.git" master
 echo "上传成功"
 cd -
