@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/peinkid/peinkid.github.io@v0.1/lover.png
+heroImage: https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/lover.png
 tagline: 柳东衾
 actionText: WELCOME
 actionLink: /all/blog/blog1.md
