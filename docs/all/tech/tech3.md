@@ -41,3 +41,7 @@ title: Vue实现按需加载
     component: resolve => require.ensure([], () => resolve(require('../components/Hello')), 'demo')
 }
 ```
+
+ 
+ <comment-comment/> 
+ 

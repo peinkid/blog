@@ -78,10 +78,10 @@ export default {
           cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio3.jpg' // prettier-ignore
         },
         {
-          name: '願い～あの頃のキミへ',
+          name: '有彩虹',
           artist: 'Vincent Blue',
           url:
-            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/youcaihong.mp3',
+            'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6.1/docs/.vuepress/public/mp3/youcaihong.mp3',
           cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio4.jpg' // prettier-ignore
         }
       ]

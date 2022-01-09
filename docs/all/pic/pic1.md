@@ -1,3 +1,9 @@
 ---
-layout: Pic
+layout: test
 ---
+
+<Pic/>
+
+ 
+ <comment-comment/> 
+ 

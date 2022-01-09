@@ -80,3 +80,7 @@ console.log(Object.getOwnPropertyNames(obj));
 <span class="pein">Object.getOwnPropertyNames</span> 主要用于返回对象自有属性，包括可枚举和不可枚举的属性，不包括继承自原型的属性。
 
 最后，<span class="pein">Symbol</span> 作为属性名，遍历对象的时候，该属性不会出现在<span class="pein">for...in、for...of</span>循环中，也不会被<span class="pein">Object.keys()、Object.getOwnPropertyNames()、JSON.stringify()</span>返回，可以使用<span class="pein">Object.getOwnPropertySymbols()</span>获取，或者使用<span class="pein">Reflect.ownKeys()</span>方法可以返回所有类型的键名，包括常规键名和 Symbol 键名，Emm...<span class="pein">Symbol</span>之后有空再做一下总结吧~
+
+ 
+ <comment-comment/> 
+ 

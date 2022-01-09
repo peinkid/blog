@@ -65,3 +65,7 @@ console.log(Function.prototype.__proto__ === Object.prototype); //true
 3.Object.prototype的原型对象是null
 */
 ```
+
+ 
+ <comment-comment/> 
+ 

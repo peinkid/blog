@@ -31,3 +31,7 @@ title: 设置Chrome解决本地开发跨域
 <span class="pein">--disable-web-security --user-data-dir=C:\MyChromeDevUserData</span>
 
 <span class="pein">C:\MyChromeDevUserData</span> 是你本地硬盘的一个目录，你自己最好新建一个，上面的目录路径换成你新建的目录就可以了。
+
+ 
+ <comment-comment/> 
+ 

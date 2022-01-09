@@ -131,3 +131,7 @@ personA.show4().call(personB); // personA，箭头函数绑定，call并没有�
 personA.show4.call(personB)(); // personB，解析同题目1，最后是箭头函数绑定，
 // this指向外层作用域，即改变后的person2函数作用域
 ```
+
+ 
+ <comment-comment/> 
+ 

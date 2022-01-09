@@ -71,10 +71,10 @@ module.exports = {
         text: "每日习题",
         link: "/all/exc/exc1.md"
       },
-      {
-        text: "图片&随笔",
-        link: "/all/pic/pic1.md"
-      },
+      // {
+      //   text: "图片&随笔",
+      //   link: "/all/pic/pic1.md"
+      // },
       {
         text: "关于Peinkid",
         link: "/all/about/about.md"
