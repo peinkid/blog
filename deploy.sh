@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 # 生成静态文件
 echo "正在执行编译~"
-npm run build
+npm run buildbasis
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist

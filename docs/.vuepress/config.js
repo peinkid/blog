@@ -88,7 +88,8 @@ module.exports = {
         "blog4",
         "blog5",
         "blog6",
-        "blog7"
+        "blog7",
+        "blog8"
       ],
       "/all/tech/": [
         "tech1",
