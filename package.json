@@ -9,8 +9,8 @@
     "buildbasis": "vuepress build docs",
     "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["peinkid", "柳东衾"],
+  "author": "柳东衾",
   "license": "ISC",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.1",

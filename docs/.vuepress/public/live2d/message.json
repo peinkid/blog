@@ -19,6 +19,10 @@
       "text": ["不会吧，你居然想了解 Peinkid 这个菜鸡？"]
     },
     {
+      "selector": "a[href='/all/lollipop/love.html']",
+      "text": ["棒棒糖，应该是你吧？是的话我还挺紧张的"]
+    },
+    {
       "selector": ".search-box",
       "text": ["在找什么东西呢，需要帮忙吗？"]
     }

@@ -8,7 +8,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'zip pic'
+git commit -m '棒棒糖'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # https://gitee.com/peinkid/peinkid.git

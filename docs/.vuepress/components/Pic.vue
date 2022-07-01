@@ -5,19 +5,20 @@
         <section
           class="list-item"
           v-for="item in img"
+          :key="item.url"
         >
           <div class="item-image">
             <img
               v-lazy="item.url"
-              @load="handleLoad($event,item)"
+              @load="handleLoad($event, item)"
             />
           </div>
           <div
             class="item-text"
-            v-if="$sys?item.show:true"
+            v-if="$sys ? item.show : true"
           >
-            <div class="text-title">{{item.title}}</div>
-            <div class="text-desc">{{item.desc}}</div>
+            <div class="text-title">{{ item.title }}</div>
+            <div class="text-desc">{{ item.desc }}</div>
           </div>
         </section>
       </main>

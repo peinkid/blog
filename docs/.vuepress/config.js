@@ -78,6 +78,11 @@ module.exports = {
       {
         text: "关于Peinkid",
         link: "/all/about/about.md"
+      },
+      {
+        text: "🍭棒棒糖",
+        link: "/all/lollipop/love.md",
+        target: "_blank"
       }
     ],
     sidebar: {
