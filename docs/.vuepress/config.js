@@ -11,41 +11,41 @@ module.exports = {
           const moment = require("moment");
           moment.locale("zh-cn");
           return moment(timestamp).format("YYYY-MM-DD HH:mm");
-        }
-      }
+        },
+      },
     ],
-    "@vuepress/back-to-top"
+    "@vuepress/back-to-top",
   ],
   head: [
     [
       "script",
       {
-        src: "https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"
-      }
+        src: "https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js",
+      },
     ],
     [
       "link",
       {
         rel: "shortcut icon",
         type: "image/x-icon",
-        href: "/favicon.ico"
-      }
+        href: "/favicon.ico",
+      },
     ],
     [
       "link",
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"
-      }
+        href: "https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css",
+      },
     ],
     [
       "link",
       {
         rel: "stylesheet",
         href:
-          "https://cdn.jsdelivr.net/gh/peinkid/peinkid.github.io@v0.5/live2d/css/live2d.css"
-      }
-    ]
+          "https://cdn.jsdelivr.net/gh/peinkid/peinkid.github.io@v0.5/live2d/css/live2d.css",
+      },
+    ],
   ],
   themeConfig: {
     smoothScroll: true,
@@ -57,19 +57,19 @@ module.exports = {
     nav: [
       {
         text: "首页",
-        link: "/"
+        link: "/",
       },
       {
         text: "个人创作",
-        link: "/all/blog/blog1.md"
+        link: "/all/blog/blog1.md",
       },
       {
         text: "技术博客",
-        link: "/all/tech/tech1.md"
+        link: "/all/tech/tech1.md",
       },
       {
         text: "每日习题",
-        link: "/all/exc/exc1.md"
+        link: "/all/exc/exc1.md",
       },
       // {
       //   text: "图片&随笔",
@@ -77,13 +77,8 @@ module.exports = {
       // },
       {
         text: "关于Peinkid",
-        link: "/all/about/about.md"
+        link: "/all/about/about.md",
       },
-      {
-        text: "🍭棒棒糖",
-        link: "/all/lollipop/love.md",
-        target: "_blank"
-      }
     ],
     sidebar: {
       "/all/blog/": [
@@ -94,7 +89,8 @@ module.exports = {
         "blog5",
         "blog6",
         "blog7",
-        "blog8"
+        "blog8",
+        "blog9",
       ],
       "/all/tech/": [
         "tech1",
@@ -104,10 +100,11 @@ module.exports = {
         "tech5",
         "tech6",
         "tech7",
-        "tech8"
+        "tech8",
+        "tech9",
       ],
-      "/all/exc/": ["exc1", "exc2", "exc3", "exc4"]
+      "/all/exc/": ["exc1", "exc2", "exc3", "exc4"],
     },
-    lastUpdated: "最后更新时间"
-  }
+    lastUpdated: "最后更新时间",
+  },
 };
