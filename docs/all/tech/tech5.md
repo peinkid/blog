@@ -2,7 +2,7 @@
 title: Vue hookEvent
 ---
 
-# Vue 中监听组件生命周期
+## Vue 中监听组件生命周期
 
 ### 1.内部监听生命周期函数
 
@@ -15,7 +15,7 @@ export default {
     this.$once("hook:beforeDestroy", () => {
       //TODO
     });
-  }
+  },
 };
 ```
 
@@ -32,17 +32,15 @@ export default {
   import CustomSelect from "@/components/CustomSelect";
   export default {
     components: {
-      CustomSelect
+      CustomSelect,
     },
     methods: {
       handleFunc() {
         //TODO
-      }
-    }
+      },
+    },
   };
 </script>
 ```
 
- 
- <comment-comment/> 
- 
+ <comment-comment/>

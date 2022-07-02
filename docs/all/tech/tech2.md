@@ -2,7 +2,7 @@
 title: 设置Chrome解决本地开发跨域
 ---
 
-# 通过设置 chrome 浏览器解决跨域问题，在本地进行开发工作
+## 通过设置 chrome 浏览器解决跨域问题，在本地进行开发工作
 
 ### 如果 Chrome 版本在 49 之前，设置方法如下：
 
@@ -32,6 +32,4 @@ title: 设置Chrome解决本地开发跨域
 
 <span class="pein">C:\MyChromeDevUserData</span> 是你本地硬盘的一个目录，你自己最好新建一个，上面的目录路径换成你新建的目录就可以了。
 
- 
- <comment-comment/> 
- 
+ <comment-comment/>

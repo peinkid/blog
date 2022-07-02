@@ -64,7 +64,7 @@ module.exports = {
         link: "/all/blog/blog1.md",
       },
       {
-        text: "技术博客",
+        text: "技术分享",
         link: "/all/tech/tech1.md",
       },
       {
@@ -102,6 +102,7 @@ module.exports = {
         "tech7",
         "tech8",
         "tech9",
+        "tech10",
       ],
       "/all/exc/": ["exc1", "exc2", "exc3", "exc4"],
     },

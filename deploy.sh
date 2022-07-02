@@ -8,12 +8,12 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m '棒棒糖'
+git commit -m '最长递归子序列+April'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # https://gitee.com/peinkid/peinkid.git
 # https://github.com/peinkid/peinkid.github.io.git
 echo "正在上传github~"
-git push -f "https://gitee.com/peinkid/peinkid.git" master
+git push -f "https://github.com/peinkid/peinkid.github.io.git" master
 echo "上传成功"
 cd -

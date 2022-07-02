@@ -2,6 +2,8 @@
 title: 最长递归子序列
 ---
 
+### 最长递归子序列
+
 ```js
 // 最长递归子序列
 function getRequence(arr) {
