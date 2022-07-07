@@ -2,7 +2,7 @@
 title: js防抖与节流
 ---
 
-## js 函数的防抖(debounce)与节流(throttle)
+### js 函数的防抖(debounce)与节流(throttle)
 
 ### 序言
 
