@@ -20,7 +20,7 @@
   "dependencies": {
     "@moefe/vue-aplayer": "^2.0.0-beta.5",
     "mint-ui": "^2.2.13",
-    "moment": "^2.25.1",
+    "moment": "^2.29.4",
     "sweetalert": "^2.1.2",
     "vuepress-plugin-helper-live2d": "^1.0.0"
   }
