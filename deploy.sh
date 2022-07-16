@@ -8,7 +8,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m '最长递归子序列+April'
+git commit -m 'cdn'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # https://gitee.com/peinkid/peinkid.git
