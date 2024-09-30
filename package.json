@@ -9,7 +9,10 @@
     "buildbasis": "vuepress build docs",
     "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js"
   },
-  "keywords": ["peinkid", "柳东衾"],
+  "keywords": [
+    "peinkid",
+    "柳东衾"
+  ],
   "author": "柳东衾",
   "license": "ISC",
   "devDependencies": {
