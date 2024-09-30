@@ -1,11 +1,11 @@
 ---
-title: 最长递归子序列
+title: 最长递增子序列
 ---
 
-### 最长递归子序列
+### 最长递增子序列
 
 ```js
-// 最长递归子序列
+// 最长递增子序列
 function getRequence(arr) {
   const length = arr.length;
   // 描述最长递增子序列的数组，存放索引，元素递增
