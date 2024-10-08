@@ -457,7 +457,4 @@ export default {
 #chunfeng {
   color: rgba(27, 23, 23, 0.9);
 }
-* {
-  overflow: visible;
-}
 </style>
