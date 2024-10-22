@@ -29,35 +29,35 @@ export default {
       isChangeStyle: false,
       audio: [
         {
-          name: 'sonder---司南~:2020-01-01',
+          name: 'sonder',
           artist: '司南',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/sonder.mp3',
           cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio1.jpg' // prettier-ignore
         },
         {
-          name: '应怀酒---司南~:2020-02-02',
+          name: '应怀酒',
           artist: '司南',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/yinghuaijiu.mp3',
           cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio2.jpg' // prettier-ignore
         },
         {
-          name: '坠落星空---小星星Aurora:2020-05-02',
+          name: '坠落星空',
           artist: '小星星',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/zhuiluoxingkong.mp3',
           cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio3.jpg' // prettier-ignore
         },
         {
-          name: '我承认---阿悄（肖莎）:2020-05-02',
+          name: '我承认',
           artist: '阿悄',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/wochengren.mp3',
           cover: 'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/audioimg/audio4.jpg' // prettier-ignore
         },
         {
-          name: '打上花火---Akie 秋绘',
+          name: '打上花火',
           artist: 'Akie 秋绘',
           url:
             'https://cdn.jsdelivr.net/gh/peinkid/blog@2.6/docs/.vuepress/public/mp3/dashanghuahuo.mp3',
