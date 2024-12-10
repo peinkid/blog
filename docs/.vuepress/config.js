@@ -73,7 +73,7 @@ module.exports = {
       },
       {
         text: "柳上观云",
-        link: "/all/novel/Chap.1.md",
+        link: "/all/novel/Chap.0.md",
       },
       // {
       //   text: "图片&随笔",
@@ -111,6 +111,10 @@ module.exports = {
         "tech9",
         "tech10",
         "tech11",
+      ],
+      "/all/novel/": [
+        "Chap.0",
+        "Chap.1",
       ],
       "/all/exc/": ["exc1", "exc2", "exc3", "exc4"],
     },
