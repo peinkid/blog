@@ -115,6 +115,8 @@ module.exports = {
       "/all/novel/": [
         "Chap.0",
         "Chap.1",
+        "Chap.2",
+        "Chap.3"
       ],
       "/all/exc/": ["exc1", "exc2", "exc3", "exc4"],
     },
