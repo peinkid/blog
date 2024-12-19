@@ -118,6 +118,7 @@ module.exports = {
         "Chap.2",
         "Chap.3",
         "Chap.4",
+        "Chap.5",
         "info"
       ],
       "/all/exc/": ["exc1", "exc2", "exc3", "exc4"],
